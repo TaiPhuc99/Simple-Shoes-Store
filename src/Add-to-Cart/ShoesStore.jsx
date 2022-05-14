@@ -3,6 +3,7 @@ import ProductList from "./ProductList";
 import DetailModal from "./DetailModal";
 import { dataList } from "./DataList";
 import CartModal from "./CartModal";
+import ModalMessage from "./ModalMessage";
 
 export default class ShoesStore extends Component {
   state = {
@@ -71,6 +72,7 @@ export default class ShoesStore extends Component {
           content={this.state.productDetail}
           addProduct={this.addProduct}
         />
+        <ModalMessage />
       </div>
     );
   }

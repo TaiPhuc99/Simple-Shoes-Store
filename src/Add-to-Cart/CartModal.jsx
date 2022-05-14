@@ -81,18 +81,10 @@ export default class CartModal extends Component {
             style={{ maxWidth: "80vw" }}
           >
             <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">
-                  Modal title
+              <div className="modal-header justify-content-center">
+                <h5 className="modal-title " id="exampleModalLabel">
+                  PRODUCT ORDER
                 </h5>
-                <button
-                  type="button"
-                  className="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">×</span>
-                </button>
               </div>
               <div className="modal-body">
                 <table className="table text-center">

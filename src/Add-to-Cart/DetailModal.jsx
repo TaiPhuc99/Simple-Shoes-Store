@@ -70,6 +70,8 @@ export default class DetailModal extends Component {
                 <a
                   className="btn btn-dark"
                   style={{ color: "white", cursor: "pointer" }}
+                  data-toggle="modal"
+                  data-target="#ignismyModal"
                   onClick={() => {
                     this.props.addProduct(this.props.content);
                   }}
